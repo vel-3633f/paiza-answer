@@ -21,5 +21,6 @@ let sum = [3];
 for (let i = 0; i < N; i++){
   sum[i] = s[i] + f[i] + (24 - t[i]);
 }
+
 console.log(Math.min(...sum));
 console.log(Math.max(...sum));
